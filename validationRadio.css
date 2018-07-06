@@ -1,0 +1,13 @@
+/* CCS OF ERROR CLASS */
+.error_sel_simple {
+    border: red 1px solid;
+    border-radius: 7px;
+    box-shadow: red 0px 0px 4px;
+}
+.error_sel_simple::after {
+    content: "Campo Obligatorio";
+    position: absolute;
+    margin-top: 6px;
+    color: red;
+    font-weight: bold;
+}
